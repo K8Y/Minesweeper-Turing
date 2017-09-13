@@ -1,0 +1,24 @@
+How to play MineSweeper:
+
+There is a 20 x 20 grid which is covered. Underneath there are 40 randomly scattered mines. 
+
+When you left-click on a box, one of three things will happen:
+(a) It will be a mine and the game will be over (and you lose)
+
+(b) It will be uncovered and show a number. 
+    This number represents the number of mines touching that box (including diagonals).
+
+(c) It will be and empty box (no number or mine) in which case all the touching boxes will be uncovered. 
+    If those ones are blank then the process of unocvering will be repeated.
+    If the box it uncoveres has a number then that number box will be unocovered but it won't continue to uncover touching boxes. 
+
+If you think a box has a mine then you can right-click it and it will be marked as a different colour (right-click again to change it back)
+
+Game ends when:
+(a) You uncover a mine and you lose.
+
+	or
+
+(b) You uncover all the boxes without mines and you win.
+
+Have fun!
